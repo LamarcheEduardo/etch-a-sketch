@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #CCCCCC;
+}
+
+.title {
+    text-align: center;
+    font-family: Licorice;
+    font-size: 30px;
+    text-shadow: gray;
+    padding-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    border: 0.5px solid gray;
+    border-left: none;
+    border-right: none;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+}
+
+.column {
+    border: 0.5px solid gray;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.newGrid, .btn-reset, .color {
+    border: 3px solid #747474;
+    background: #ae9bddef;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
