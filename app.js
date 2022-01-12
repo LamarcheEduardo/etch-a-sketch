@@ -81,7 +81,7 @@ let color = document.createElement('button');
 color.innerText = 'Random Color';
 color.className = 'color';
 buttons.appendChild(color);
-//function to get a new color.
+
 
 
 //event listener to change colors when clicked.
