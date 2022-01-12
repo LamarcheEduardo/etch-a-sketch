@@ -85,7 +85,7 @@ buttons.appendChild(color);
 
 
 //event listener to change colors when clicked.
-color.addEventListener('click', () => {
-    setBg();
-});
-buttons.appendChild(color);
+// color.addEventListener('click', () => {
+//     setBg();
+// });
+// buttons.appendChild(color);
